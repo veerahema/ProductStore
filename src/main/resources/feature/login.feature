@@ -7,9 +7,9 @@ Background: Below are the common steps for the scenarios
 	Given I have browser with demoblaze page 
 	
 Scenario: Valid Signup 
-	When I enter username as 'veerahemagovada' and password as 'veerahema' 
+	When I enter username as 'veerahema.g' and password as 'veerahema' 
 	Then I should get popup as 'Sign up successful.' 
-	
+		
 Scenario: Invalid signup with blank username/password 
 	When I enter blankusername as '' and password as 'veerahema' 
 	Then I should get error popup as 'Please fill out Username and Password.' 
